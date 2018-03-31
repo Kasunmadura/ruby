@@ -1,9 +1,6 @@
 ## Ruby 101
 
-
-![](https://img.haikudeck.com/mg/l7h9NiIMHr_1408734700730.jpg)
-
-Thiswill summarised and give overview of Ruby coding for DevOps/Sysadmin which will help you to solve BAU issues.
+This will summarised and give overview of Ruby coding for DevOps/Sysadmin which will help you to solve BAU issues.
 
 ### Installation
 
@@ -46,15 +43,21 @@ follow the https://rvm.io and we could install in base on user or system
 3. Can be used in complex statements
 
 4. Variable Assignment
+
 - my_variable = 1000
 - a = "Hello Kasun"
 - @tempature = 200
 
 5. Naming Variables
+
 - must start with lowercase letter
 - can have underscores _
 - descriptive names
 - avoid keywords of ruby ( if, for, do, end etc )
 
 6. Variable Scope
-- Can be used in dettain
+
+- Can be used in certain places
+- Local
+- instance
+  - @
