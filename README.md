@@ -41,7 +41,6 @@ follow the https://rvm.io and we could install in base on user or system
 1. Like in Algebra
 2. Value can change
 3. Can be used in complex statements
-
 4. Variable Assignment
 
 - my_variable = 1000
