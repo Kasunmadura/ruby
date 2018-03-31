@@ -1,7 +1,7 @@
 ## Ruby 101
 
 
-![]https://img.haikudeck.com/mg/l7h9NiIMHr_1408734700730.jpg
+![](https://img.haikudeck.com/mg/l7h9NiIMHr_1408734700730.jpg)
 
 Thiswill summarised and give overview of Ruby coding for DevOps/Sysadmin which will help you to solve BAU issues.
 
