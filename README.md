@@ -60,3 +60,130 @@ follow the https://rvm.io and we could install in base on user or system
 - Local
 - instance
   - @
+- Class
+  - @@
+- Global
+  - $
+
+7. Constant
+
+- Begin with Capital
+
+8. Variable Types
+
+- Litterals
+  - explicitly give values
+- Variables
+  - names that link to values
+- Common types
+  - Numbers
+  - Booleans
+  - Strings
+  - Arrays
+  - Hashes
+types of variable correspond to type of Litterals
+
+#### Numbers
+
+Types of Numbmers
+
+eg:
+    my_num = 200
+
+- Integers
+  - Bignu and Fixnum
+- Float
+
+#### Booleans
+
+eg :
+    light_on = true
+
+true or false
+- Distinction between positive integer and true
+
+
+#### Strings
+
+eg : ridiculous_text = "this is kasun tutorial"
+     silly_string = 'sam is lazy girl'
+
+- Text
+
+#### Arrays
+
+- Contain a set of data
+    first_for_numbers = [1,2,3,4]
+    first_for_numbers[3] = 4
+    my_array = []
+
+#### Hash
+
+- list with keys not numbers (key value pair)
+    my_hash = { "name" => "kasun", "age" => 12 }
+    my_hash["name"]
+    my_hash = {}
+
+
+### Math
+
+- Addition +
+- Subtraction -
+- Multiplication *
+- Division /
+- Exponent **
+- Modulus %
+- Math:PI
+
+Conversions 100.to_s 100.to_i 100.to_f
+
+### Conditional
+
+#### if
+
+- eg :1
+
+      if my_variable > 10
+          puts my_variable
+      end
+
+- eg :2
+
+      if my_variable > 10
+          puts my_variable
+      else
+          puts "too small"
+      end
+
+- eg: 3
+
+      if my_variable > 10
+        ...
+      elsif my_variable < 10
+        ...
+      else
+        ...
+      end
+
+- eg: 4  One line Conditional
+
+      puts "Big number" if my_variable > 10
+      puts "Small number " unless my_variable > 10
+
+- eg : 5  Basic Negated Conditional
+
+      unless my_variable > 10
+          puts my_variable
+      end
+
+- eg : 6 Ternary statements
+
+      if my_var > 10
+          puts "big"
+      else
+          puts "Small"
+      end
+
+      my_var > 10 ? puts("big") : puts ("Small")
+
+      
