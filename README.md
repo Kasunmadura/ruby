@@ -186,4 +186,26 @@ Conversions 100.to_s 100.to_i 100.to_f
 
       my_var > 10 ? puts("big") : puts ("Small")
 
-      
+
+- eg: 7 Boolean AND and OR
+
+     if my_var == 10 && your_var == 5
+     ..
+     end
+
+
+     if my_var == 10 || your_var == 5
+     ..
+     end
+
+- eg : 8  Not gate
+
+     (invert)
+     if !my_var = 10
+     end
+
+
+     if  my_var != 10
+     end
+
+
