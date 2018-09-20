@@ -208,4 +208,54 @@ Conversions 100.to_s 100.to_i 100.to_f
      if  my_var != 10
      end
 
+### Each method
+
+1. A method  called on a collection object eg: first_five-integers.each
+2. Take  a programe block as an arugment
+
+     first_five_int.each do
+      ...
+     end
+
+3. each with a hash
+
+    my_hash =  { "orange" => true , "banana" => false }
+
+    my_hash.each do  |key,value|
+    ...
+    end
+
+
+#### Hash and arrays
+
+Hash : Collection of key value pairs
+
+eg:  hash= {"kasun"=> 1, "Nimal"=> 2}
+
+Array: ineger-indexd collection of any objects
+
+eg : array= [1,56,345,232]
+
+few methods we could use for day today objectives  array.count , array.length , array.map , array.include?
+
+eg :
+
+    array= [1,2,3,4,5]
+
+    odd_or_even = array.map  do |element|
+      element % 2  == 0  ? "even" :  "odd"
+    end
+
+
+#### Strings
+
+    eg:  puts  "you have #{band_account} doller"
+    eg:  puts  "you have"+ band_account + "doller"
+
+    methods : split  upper  lower
+
+
+
+
+
 
